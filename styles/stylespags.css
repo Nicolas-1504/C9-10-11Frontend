@@ -1,0 +1,80 @@
+@import url(../styles/base.css);
+@import url(../styles/variables.css);
+@import url(../styles/header.css);
+@import url(../styles/footer.css);
+
+.formulario{
+    margin-left: 31%;
+}
+
+h1{
+    color: var(--grisTituloFormularios);
+    font-family: Inter,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+input{
+    border: var(--negro) solid 1px;
+    color: var(--negro);
+    display: block;
+    font-family: Karla,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 500px;
+}
+
+select{
+    border: var(--negro) solid 1px;
+    display: block;
+    font-family: Karla,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 500px;
+}
+
+.boton-reset{
+    background-color: var(--grisBotonReset);
+    border-radius: 23.011px;
+    border: none;
+    color: var(--blanco);
+    display: inline-block;
+    font-family: Karla,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 240px;
+}
+
+.boton-enviar{
+    background-color: var(--verde);
+    border-radius: 23.011px;
+    border: none;
+    color: var(--negro);
+    display: inline-block;
+    font-family: Karla,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.text-form{
+    font-family: Karla,sans-serif;
+    font-weight: 400;
+    margin-bottom: 80px;
+    margin-left: 15%;
+}
+.text-form > a{
+    color: var(--azul);
+    text-decoration: none;
+}

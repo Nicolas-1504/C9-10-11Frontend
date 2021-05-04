@@ -1,0 +1,124 @@
+@import "base.css";
+@import "variables.css";
+@import "header.css";
+@import "footer.css";
+
+nav {
+    background-color: var(--azulOscuro);
+    padding: 8px;
+    text-align: right;
+}
+
+nav > a{
+    color: var(--blanco);
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.fa-plus{
+    background-color: var(--azul);
+    border-radius: 100%;
+    color: var(--blanco);
+    font-size: 25px;
+    padding: 18px;
+    position: fixed;
+    right: 4%;
+    top: 50%;
+}
+
+.fa-plus:hover{
+    background-color: var(--azulOscuro);
+    transition-duration: 1s;
+}
+
+.card1  {
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 100px 0px 100px 180px;
+    position: relative;
+    width: 300px;
+}
+
+.card2{
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 100px 0px 100px 40px;
+    position: relative;
+    width: 300px;
+}
+
+.card3{
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 100px 0px 100px 40px;
+    position: relative;
+    width: 300px;
+}
+
+.card-batman{
+    background-image: url(../img/Background\ B.jpg);
+    background-position-x: -25px;
+    background-position-y:center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    border-radius: 15px 15px 0 0;
+    padding-top: 180px;
+}
+
+.card-harley{
+    background-image: url(../img/Background\ HQ.png);
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    border-radius: 15px 15px 0 0;
+    padding-top: 180px;
+}
+
+.fa-heart{
+    color: var(--rojo);
+    font-size: 25px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.imagen-heroes{
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 90px;
+    position: absolute;
+    top: 110px;
+    z-index: 1;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.info{
+    background-color: var(--gris);
+    padding: 70px 0 100px 0 ;
+    position: relative;
+    text-align: center;
+}
+
+.textcard{
+    color: var(--grisLetra);
+    font-size: 17px;
+    padding: 15px 15px 0 15px;
+    text-align: left;
+}
+
+.boton{
+    background-color: var(--azul);
+    color: var(--blanco);
+    left: 85px;
+    padding: 15px 35px;
+    position: absolute;
+    text-decoration: none;
+    top: 275px;
+}

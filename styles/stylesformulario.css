@@ -1,0 +1,148 @@
+@import url(../styles/base.css);
+@import url(../styles/variables.css);
+@import url(../styles/header.css);
+@import url(../styles/footer.css);
+
+nav {
+    background-color: var(--azulOscuro);
+    padding: 8px;
+    text-align: right;
+}
+
+nav > a{
+    color: var(--blanco);
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.caja-formulario{
+    background-color: var(--azul);
+    border-radius: 25px; 
+    height: 720px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+    width: 850px;
+}
+
+h2{
+    color: var(--blanco);
+    font-family: Inter,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-formulario{
+    color: var(--blanco);
+    font-family: Inter,sans-serif;
+    font-weight: 300;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+    
+.column{
+    color: var(--blanco);
+    display: inline-block;
+    font-family: Inter,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    left: 130px;
+    position: absolute;
+}
+
+.column > input{
+    border-radius: 15px;
+    border: none;
+    display: block;
+    margin: 15px 0 20px 0;
+    padding: 15px 80px;
+}
+
+.column > textarea{
+    border-radius: 15px;
+    height: 300px;
+    margin-top: 10px;
+    resize: none;
+    width: 100%;
+}
+
+.column1{
+    color: var(--blanco); 
+    display: inline-block; 
+    font-family: Inter,sans-serif;
+    font-weight: 300;
+    left: 450px;
+    position:absolute;
+}
+
+.column1 > select{
+    border-radius: 15px;
+    border: none;
+    display: block;
+    margin: 15px 0 20px 0;
+    padding: 15px 110px;
+}
+
+.column1 > p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.archivos{
+    transform: scale(1.1);
+}
+
+.text-poderes{
+    display: block;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.column1 > input{
+    display: inline-block;
+    font-family: Karla,sans-serif;
+    font-weight: 400;
+    margin: 15px 0 10px 10px;
+}
+
+.column1 > span{
+    border: none;
+    display: block;
+    margin: 10px 0 10px 30px;
+    transform: scale(1.2);
+}
+
+.linea{
+    border: solid var(--blanco) 1px;
+    display: block;
+    margin-top: 40px;
+}
+
+.personaje{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.boton-enviar1{
+    background-color: var(--verde);
+    border-radius: 15px;
+    color: var(--negro);
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    left: 250px;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 630px;
+    width: 350px;
+}
+
+.boton-enviar1:hover{
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+    transition-duration: 1s;
+}

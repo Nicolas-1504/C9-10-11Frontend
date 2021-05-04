@@ -1,0 +1,9 @@
+@import "base.css";
+@import "variables.css";
+
+footer {
+    background-color: var(--azul);
+    color: var(--blanco);
+    padding: 15px ;
+    text-align: center;
+}

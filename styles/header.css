@@ -1,0 +1,31 @@
+@import "base.css";
+@import "variables.css";
+
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+}
+
+.discount{
+    background-color: var(--verde);
+    padding-left: 20px;
+}
+
+.store{
+    background-color: var(--azul);
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.titlestore{
+    color: var(--blanco);
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 15px;
+    position: absolute;
+    text-align: center;
+    top: 20px;   
+}

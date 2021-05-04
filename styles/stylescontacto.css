@@ -1,0 +1,27 @@
+@import url(../styles/base.css);
+@import url(../styles/variables.css);
+@import url(../styles/header.css);
+@import url(../styles/stylespags.css);
+@import url(../styles/footer.css);
+
+.textarea{
+    border: solid 1px var(--negro);
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    height: 200px;
+    margin-bottom: 20px;
+    resize: none;
+    width: 500px;
+}
+
+.boton-enviar{
+    font-weight: bold;
+    width: 240px;
+}
+
+footer{
+    margin-top: 90px;
+}
+
+

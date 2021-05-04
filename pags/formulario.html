@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../styles/stylesformulario.css">
+</head>
+
+<body>
+
+    <div class="discount">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+
+    <header>
+
+        <div class="store">
+            <a href="../index.html"><img src="../img/Tienda.png" alt="Tienda"></a>
+            <h1 class="titlestore">Tarjetas DC Comics</h1>
+        </div>
+
+        <nav>
+            <a href="../pags/contacto.html">Contacto</a>
+            <a href="../pags/register.html">Registrarme</a>
+            <a href="../pags/login.html">Ingresar</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="caja-formulario">
+                <h2>Añadí tu super!</h2>
+                <p class="text-formulario">Agregá tu personaje favorito completando las opciones.</p>
+                <form action="/pags/formulario.html">
+                    <div>
+                        <div class="column">
+                            <label for="nombre">*Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="fecha">Fecha</label>
+                            <input type="date" id="fecha" name="fecha">
+
+                            <textarea name="descripcion" id="descripcion" placeholder="Descripcion"></textarea>
+                        </div>
+
+                        <div class="column1">
+                            <label for="especie">*Especie</label>
+                            <select name="especie" id="especie" required>
+                                <option value="hum1">Humano 1</option>
+                                <option value="hum2">Humano 2</option>
+                                <option value="hum3">Humano 3</option>
+                            </select>
+
+                            <p>Agregar Foto</p>
+                            <input class="archivos" type="file" id="foto" name="foto" accept=".jpg,.png" multiple>
+
+                            <p class="text-poderes">Poderes</p>
+
+
+                            <span><input type="checkbox" id="volar" name="poderes" value="volar">
+                            <label for="volar">Volar</label></span>
+
+
+                            <span><input type="checkbox" id="superinteligencia" name="poderes"
+                                    value="superinteligencia"><label for="superinteligencia">Superinteligencia</label></span>
+
+
+                            <span><input type="checkbox" id="vision-rayo-laser" name="poderes"
+                                    value="vision-rayo-laser"><label for="vision-rayo-laser">Visión de rayo láser</label></span>
+
+
+                            <span><input type="checkbox" id="billetera-gorda" name="poderes"
+                                    value="billetera-gorda"><label for="billetera-gorda">Billetera gorda </label></span>
+
+                            <div class="linea"></div>
+
+                            <p class="personaje">Tipo de personaje</p>
+
+                            <span><input type="radio" id="heroe-heroina" name="tipo-personaje"
+                                    value="heroe-heroina"><label for="heroe-heroina">Héroe / Heroina</label></span>
+
+                            <span><input type="radio" id="villano-villana" name="tipo-personaje"
+                                    value="villano-villana"><label for="villano-villana">Villano /
+                                    Villana</label></span>
+                        </div>
+                        <a class="boton-enviar1" href="../index.html">Añadir</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Nicolas Ahumada </p>
+    </footer>
+</body>
+
+</html>
